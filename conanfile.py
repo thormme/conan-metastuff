@@ -6,7 +6,7 @@ class MetaStuff(ConanFile):
     name = "metastuff"
     version = "cmake"
     settings = "os", "compiler", "arch", "build_type"
-    description = "JSON for Modern C++ parser and generator from https://github.com/nlohmann/json"
+    description = "C++ object serialization/deserialization/introspection from https://github.com/eliasdaler/MetaStuff"
     license = "MIT"
     url = "https://github.com/thormme/conan-metastuff"
     repo_url = "https://github.com/eliasdaler/MetaStuff"
